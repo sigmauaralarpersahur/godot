@@ -1,8 +1,7 @@
-<!-- shxyder -->
-<!-- ultimate game stash file -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <base href="https://gcore.jsdelivr.net/gh/sigmauaralarpersahur/godot@main/five-nights-at-freddys-3-remastered/">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
     <title>FNAF 3 Remastered</title>
@@ -14,7 +13,7 @@
             height: 100%;
             overflow: hidden;
             background-color: black;
-            background-image: url("https://cdn.jsdelivr.net/gh/shayderrr/idk@87ff56487f7a13506c0596be9bc341c81f48e991/fnaf3remastered/rdloading.webp");
+            background-image: url("rdloading.webp");
             background-size: cover;
             background-position: center;
         }
@@ -43,8 +42,8 @@
             transition: width 0.2s;
         }
     </style>
-    <script src="https://cdn.jsdelivr.net/gh/shayderrr/idk@87ff56487f7a13506c0596be9bc341c81f48e991/fnaf3remastered/pako_inflate.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/shayderrr/idk@87ff56487f7a13506c0596be9bc341c81f48e991/fnaf3remastered/bridge.js"></script>
+    <script src="pako_inflate.min.js"></script>
+    <script src="bridge.js"></script>
 </head>
 <body>
     <div id="progress-container">
@@ -56,7 +55,7 @@
     (function() {
         'use strict';
 
-        const BASE = "https://cdn.jsdelivr.net/gh/shayderrr/idk@87ff56487f7a13506c0596be9bc341c81f48e991/fnaf3remastered/";
+        const BASE = "https://gcore.jsdelivr.net/gh/sigmauaralarpersahur/godot@main/five-nights-at-freddys-3-remastered/";
         const originalFetch = window.fetch;
         const mergedData = {};
         const pendingRequests = {};
